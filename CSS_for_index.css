@@ -1,0 +1,203 @@
+header{
+	position:sticky;
+	z-index:1;
+	top: 0;
+	background-color:#013501;
+	text-align:center;
+	color:white;
+	padding:10px 0px 8px 0px;
+	margin: -20px -10px 0px -10px;
+}
+
+
+b{
+	font-size: 350%;
+	font-variant:small-caps;
+	padding-left:25%;
+	padding-right:25%;
+}
+
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+.home-icon{
+	background-color: #013501;
+	color: white;
+	padding:25px 16px;
+	border: none;
+	cursor: pointer;
+	font-size:30px;
+}
+
+
+.home-icon:hover{
+	background-color: #008900;
+}
+
+
+.bar-icon {
+	font-size:30px;
+	background-color: #013501;
+	color: white;
+	padding:25px  16px;
+	border: none;
+	cursor: pointer;
+}
+
+
+.bar-icon:hover{
+	background-color: #008900;
+}
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+
+.bar-content {
+	display: none;
+	position: absolute;
+	background-color:  #a6e386;
+	min-width: 300%;
+	z-index: 1;
+}
+
+
+.bar-content a {
+	color: black;
+	font-size:20px;
+	padding: 12% 12%;
+	display: block;
+	text-decoration:none;
+}
+
+
+.bar-content a:hover {
+	background-color: #c0f9ac;
+}
+
+
+.dropdown:hover .bar-content {
+	display: block;
+}
+
+
+
+.center-image{
+	margin-top:10%;
+	margin-bottom:10%;
+	margin-left:15%;
+	margin-right:10%;
+	background-position:center;
+	background-size:cover;
+}
+
+
+
+.vegetable-tile, .fruit-tile, .misc-tile{
+	height:250px;
+	width:90%;
+	margin-bottom:15px;
+	position:relative;
+	border: 2px solid #3F0C1F;
+	overflow:hidden;
+	margin-left:20px;
+}
+
+
+.vegetable:hover, .fruit-tile:hover, .misc-tile:hover{
+	box-shadow: 0 1px 5px 1px #CCCCCC;
+}
+
+
+.vegetable-tile{
+	background:url('vegetables.jpg');
+	background-position:center;
+	background-size:cover;
+}
+
+
+.fruit-tile{
+	background:url('fruits.jpg');
+	background-position:center;
+	background-size:cover;
+}
+
+
+.misc-tile{
+	background:url('misc.jpg');
+	background-position:center;
+	background-size:cover;
+}
+
+
+.vegetable-tile span, .fruit-tile span, .misc-tile span{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:100%;
+	text-align:center;
+	font-size:1.6em;
+	text-transform:uppercase;
+	background-color:#000;
+	color:#fff;
+	opacity:.8;
+}
+
+
+@media(min-width:700px){
+	.vegetable-tile{
+		width:30%;
+		margin-left:1px;
+	}
+	.fruit-tile{
+		width:30%;
+		margin-top:-270px;
+		margin-left:35%;
+	}
+	.misc-tile{
+		width:30%;
+		margin-top:-270px;
+		margin-right:10px;
+		float:right;
+	}
+}
+
+
+
+.footer{
+	margin-top:10%;
+	background-color:#ffa22b;
+	width:100%;
+}
+
+
+.footer td{
+	font-size:150%;
+	padding: 1%;
+	padding-left:10%;
+	text-align: center;
+	font-style:italic;
+	font-weight:bold;
+}
+
+
+.footer tr td:first-child{
+	padding-left:2%;
+	text-align:left;
+	font-style:normal;
+}
+
+
+.footer tr td:last-child{
+	padding-left:2%;
+	text-align:right;
+	font-style:normal;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>THE Grocery Store</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" href="CSS_for_Details.css">
+
+		<script src="JS_for_Details_for_Vegetables.js"></script>
+	</head>
+
+	<body>
+		<fieldset>
+			<legend>Delivery Details</legend>
+
+			<form>
+
+				<label>First Name:<input type="text" name="fname" id="fname" required/></label></br>
+
+				<label> Last Name:<input type="text" name="lname" id="lname" required/></label></br>
+
+				<label>  Email:<input type="email" name="email" id="email" placeholder="xyz@mail.com" required/></label></br>
+
+				<label>Address:<input type="text" name="address" id="address" required/></label></br>
+
+				<label>  City:<input type="text" name="city" id="city" required/></label></br>
+
+				<label>  State:<input type="text" name="state" id="state" required/></label></br>
+
+				<label>  Pincode:<input type="number" name="pincode" id="pincode" min="600000" max="699999" pattern="[0-9]" required/></label></br>
+
+				<label>Phone Number:<input type="number" name="phoneno" id="phoneno" required/></label></br>
+
+				<P>Select The Product</br>
+
+					<label><input type="radio" name="vegetables" id="Vegtables" value="Peas" onchange="calcTotal();"/>Peas</label><br>
+
+					<label><input type="radio" name="vegetables" id="Vegtables" value="Onion" onchange="calcTotal();"/>Onion</label><br>
+
+					<label><input type="radio" name="vegetables" id="Vegtables" value="Carrot" onchange="calcTotal();"/>Carrot</label><br>
+
+					<label><input type="radio" name="vegetables" id="Vegtables" value="Tomato" onchange="calcTotal();"/>Tomato</label><br>
+
+					<label><input type="radio" name="vegetables" id="Vegtables" value="Brinjal" onchange="calcTotal();"/>Brinjal</label><br>
+
+					<label><input type="radio" name="vegetables" id="Vegtables" value="Cabbage" onchange="calcTotal();"/>Cabbage</label><br>
+				</p>
+
+				<label>Product Quantity:  <input type="number" id="Quantity" value="1" min="1" max="10" name="quantity" onchange="calcTotal();"/></label><br>
+
+				<p id="Total"></p>
+
+				<label><button type="button" value="Submit" class="submit" onclick="submitFunction();"/>Submit</button></label>
+
+			</form>
+		</fieldset>
+
+		<section>
+			<div id="Name"></div>
+
+			<div id="Email"></div>
+
+			<div id="Address1"></div>
+
+			<div id="Address2"></div>
+
+			<div id="Address3"></div>
+
+			<div id="Product"></div>
+
+			<div id="totalAmount"></div>
+
+			<div id="Phone_no"></div>
+		</section>
+
+		<footer>
+			<table class="footer">
+				<tr>
+					<td><span>Address:</br>No.14, 34th Street,</br>Chennai,</br>Tamilnadu.</span></td>
+
+					<td><span>"Only the Fresh"</br></br>"One Tap Delivery"</br></br>"Shopping Made Simple"</span</td>
+
+					<td><span>Contact No. 9876543210</br></br>Follow us on  <i class="fa fa-instagram"></i>  <i class="fa fa-twitter"></i>  <i class="fa fa-facebook"></i></span></td>
+				</tr>
+			</table>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,101 @@
+fieldset{
+	font-size:150%;
+	background-color:#b3bcee45;
+}
+
+
+legend{
+background-color:#ffffff;
+}
+
+
+
+label {
+	font-size:90%;
+	color:#555555;
+	width:auto;
+}
+
+
+label #fname,#lname,#email,#address,#city,#state,#pincode,#phoneno{
+	font-size:0.8em;
+	margin-top:10px;
+}
+
+
+label:hover{
+	color:#000000;
+}
+
+
+form p{
+	color:#555555;
+	font-size:90%;
+}
+
+
+form p:hover{
+	color:#000000;
+}
+
+
+.submit{
+	color:black;
+	background-color:white;
+	border:1px solid black;
+	width:auto;
+	font-size:90%;
+}
+
+
+.submit:hover{
+	color:white;
+	background-color:black;
+}
+
+
+
+section{
+	margin-left:1%;
+	font-size:130%;
+	color:darkgreen;
+	background-color:#ffffff;
+	margin-right:65%;
+}
+
+
+section:hover{
+	color:white;
+	background-color:darkgreen;
+}
+
+
+.footer{
+	
+	background-color:orange;
+	width:100%;
+}
+
+
+.footer td{
+	font-size:150%;
+	padding: 1%;
+	padding-left:10%;
+	text-align: center;
+	font-style:italic;
+	font-weight:bold;
+}
+
+
+.footer tr td:first-child{
+	padding-left:2%;
+	text-align:left;
+	font-style:normal;
+}
+
+
+.footer tr td:last-child{
+	padding-left:2%;
+	text-align:right;
+	font-style:normal;
+}

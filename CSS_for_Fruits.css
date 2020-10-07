@@ -1,0 +1,192 @@
+header{
+	position:sticky;
+	z-index:1;
+	top: 0;
+	background-color:#013501;
+	color:white;
+	padding:10px 0px 8px 0px;
+	margin: -20px -10px 0px -10px;
+}
+
+
+b{
+	float:left;
+	font-size: 350%;
+	font-variant:small-caps;
+	padding-left:8%;
+	padding-right:69%;
+}
+
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+.home-icon{
+	background-color: #013501;
+	color: white;
+	padding:25px 16px;
+	border: none;
+	cursor: pointer;
+	font-size:30px;
+}
+
+
+.home-icon:hover{
+	background-color: #008900;
+}
+
+
+.bar-icon {
+	font-size:30px;
+	background-color: #013501;
+	color: white;
+	padding:25px  16px;
+	border: none;
+	cursor: pointer;
+}
+
+
+.bar-icon:hover{
+	background-color: #008900;
+}
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+
+.bar-content {
+	display: none;
+	position: absolute;
+	background-color:  #a6e386;
+	min-width: 300%;
+	z-index: 1;
+}
+
+
+.bar-content a {
+	color: black;
+	font-size:20px;
+	padding: 12% 12%;
+	display: block;
+	text-decoration:none;
+}
+
+
+.bar-content a:hover {
+	background-color: #c0f9ac;
+}
+
+
+.dropdown:hover .bar-content {
+	display: block;
+}
+
+
+
+.column{
+	border:3px solid black;
+	float:left;
+	width:18em;
+	margin-left:20%;
+	margin-top:30px;
+	margin-bottom:50px;
+	background-color:black;
+}
+
+
+.column img{
+	width:18em;
+}
+
+
+.column span{
+	font-size:120%;
+	margin-left:18%;
+	color:white;
+	font-weight:bold;
+}
+
+
+
+@media all and (max-width:850px){
+	.column{
+		background-position:center;
+		background-size:cover;
+		margin:10% 15%;
+	}
+}
+
+
+
+footer{
+	margin:1% -10px 1% -10px;
+	padding:1%;
+	font-size:200%;
+	clear:both;
+}
+
+
+.delivery-button{
+	cursor:pointer;
+	margin:2% 39%;
+}
+
+
+.delivery-button a{
+	color: white;
+}
+
+
+.delivery-button {
+	background: #2980b9;
+	-webkit-border-radius: 25;
+	-moz-border-radius: 25;
+	border-radius: 25px;
+	font-size: 75%;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+
+.delivery-button:hover {
+	background: #3cb0fd;
+}
+
+
+
+.footer{
+	margin-top:5%;
+	background-color:orange;
+	width:100%;
+}
+
+
+.footer td{
+	font-size:80%;
+	padding: 1%;
+	padding-left:10%;
+	text-align: center;
+	font-style:italic;
+	font-weight:bold;
+}
+
+
+.footer tr td:first-child{
+	padding-left:2%;
+	text-align:left;
+	font-style:normal;
+}
+
+
+.footer tr td:last-child{
+	padding-left:2%;
+	text-align:right;
+	font-style:normal;
+}
